@@ -21,7 +21,7 @@ steps:
   inputs:
     verbose: false
 
-- script: './node_modules/.bin/node-sass helloWorld/wwwroot --output helloWorld/wwwroot'
+- script: './node_modules/.bin/helloWorld/wwwroot --output helloWorld/wwwroot'
   displayName: 'Compile Sass assets'
 
 - task: gulp@1
