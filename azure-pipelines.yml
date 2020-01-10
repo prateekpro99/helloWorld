@@ -21,8 +21,7 @@ steps:
   inputs:
     verbose: false
 
-- script: './node_modules/.bin/helloWorld/wwwroot --output helloWorld/wwwroot'
-  displayName: 'Compile Sass assets'
+- displayName: 'Compile Sass assets'
 
 - task: gulp@1
   displayName: 'Run gulp tasks'
